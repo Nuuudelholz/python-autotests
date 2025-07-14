@@ -1,0 +1,17 @@
+
+Host: https://ya.ru
+Success: 3
+Failed: 0
+Errors: 0
+Min: 0.145 s
+Max: 0.229 s
+Avg: 0.197 s
+
+
+Host: https://google.com
+Success: 3
+Failed: 0
+Errors: 0
+Min: 0.428 s
+Max: 0.582 s
+Avg: 0.525 s
