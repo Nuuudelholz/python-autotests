@@ -5,10 +5,10 @@ import time
 import requests
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="HTTP Benchmark Tool")
+    parser = argparse.ArgumentParser()
 
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument('-H', '--hosts', type=str, help='Comma-separated list of hosts')
+    group.add_argument('-H', '--hosts', type=str, help='Список хостов без пробела, через запятую')
     group.add_argument('-F', '--file', type=str, help='Путь к файлу с хостами')
 
     parser.add_argument('-C', '--count', type=int, default=1, help='Число запросов для каждого хоста')
